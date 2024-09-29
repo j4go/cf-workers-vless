@@ -114,7 +114,7 @@ export default {
         PATHNAME_REGEX = "^/j4go/",
         UA_WHITELIST_REGEX,
         UA_BLACKLIST_REGEX,
-        URL302 = "https://github.com/j4go/cfpage-4testing",
+        URL302,
         IP_WHITELIST_REGEX,
         IP_BLACKLIST_REGEX,
         REGION_WHITELIST_REGEX,
