@@ -109,9 +109,9 @@ export default {
   async fetch(request, env, ctx) {
     try {
       const {
-        PROXY_HOSTNAME = "github.com",
+        PROXY_HOSTNAME = "baidu.com",
         PROXY_PROTOCOL = "https",
-        PATHNAME_REGEX = "^/j4go/",
+        PATHNAME_REGEX,
         UA_WHITELIST_REGEX,
         UA_BLACKLIST_REGEX,
         URL302,
