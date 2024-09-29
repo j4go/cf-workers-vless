@@ -109,12 +109,12 @@ export default {
   async fetch(request, env, ctx) {
     try {
       const {
-        PROXY_HOSTNAME = "z-lib.gs",
+        PROXY_HOSTNAME = "github.com",
         PROXY_PROTOCOL = "https",
-        PATHNAME_REGEX,
+        PATHNAME_REGEX = "^/j4go/",
         UA_WHITELIST_REGEX,
         UA_BLACKLIST_REGEX,
-        URL302,
+        URL302 = "https://github.com/j4go/cfpage-4testing",
         IP_WHITELIST_REGEX,
         IP_BLACKLIST_REGEX,
         REGION_WHITELIST_REGEX,
