@@ -5,7 +5,7 @@ import { connect } from "cloudflare:sockets";
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = "70c92b38-3fdc-4190-befd-61fd05fff485";
 // 13个CF-CDN优选公共大厂域名 脚本优选后的结果
-const proxyIPs = ["www.wto.org","www.zsu.gov.ua","www.visa.com.hk","icook.tw","www.pcmag.com","www.shopify.com","www.udacity.com","www.visakorea.com","www.visa.co.jp","time.cloudflare.com","cdn.anycast.eu.org","www.digitalocean.com","gur.gov.ua"];
+const proxyIPs = ["www.wto.org","icook.tw","www.udacity.com","time.cloudflare.com","cdn.anycast.eu.org"];
 const cn_hostnames = [''];
 let CDNIP = 'www.visa.com.sg'
 // http_ip
