@@ -4,8 +4,8 @@ import { connect } from "cloudflare:sockets";
 // How to generate your own UUID:
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = "70c92b38-3fdc-4190-befd-61fd05fff485";
-
-const proxyIPs = ["cdn-all.xn--b6gac.eu.org", "cdn.xn--b6gac.eu.org", "edgetunnel.anycast.eu.org", "ts.hpc.tw", "bestproxy.onecf.eu.org"];
+// 10个CF-CDN优选公共大厂域名 脚本优选后的结果
+const proxyIPs = ["www.wto.org","www.zsu.gov.ua","www.visa.com.hk","icook.tw","www.pcmag.com","www.shopify.com","www.udacity.com","www.visakorea.com","www.visa.co.jp","time.cloudflare.com"];
 
 const cn_hostnames = [''];
 let CDNIP = 'www.visa.com.sg'
