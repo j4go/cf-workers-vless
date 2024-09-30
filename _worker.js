@@ -1,13 +1,12 @@
-// <!--GAMFC-->version base on commit 43fad05dcdae3b723c53c226f8181fc5bd47223e, time is 2023-06-22 15:20:02 UTC<!--GAMFC-END-->.
-// @ts-ignore
+
 import { connect } from "cloudflare:sockets";
 
 // How to generate your own UUID:
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = "70c92b38-3fdc-4190-befd-61fd05fff485";
 
-const proxyIPs = ["104.21.0.0", "104.26.0.0", "cdn-all.xn--b6gac.eu.org", "cdn.xn--b6gac.eu.org", "edgetunnel.anycast.eu.org"];
-//ts.hpc.tw edgetunnel.anycast.eu.org bestproxy.onecf.eu.org cdn-all.xn--b6gac.eu.org cdn.xn--b6gac.eu.org proxy.xxxxxxxx.tk
+const proxyIPs = ["cdn-all.xn--b6gac.eu.org", "cdn.xn--b6gac.eu.org", "edgetunnel.anycast.eu.org", "ts.hpc.tw", "bestproxy.onecf.eu.org"];
+
 const cn_hostnames = [''];
 let CDNIP = 'www.visa.com.sg'
 // http_ip
